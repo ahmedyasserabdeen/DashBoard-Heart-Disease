@@ -951,7 +951,7 @@ def update_output(n_clicks, age, sex, chest_pain_type, resting_bp, cholesterol, 
             html.H2(result[1])
         ])
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8060)
+    app.run_server(debug=True, port=10000)
 
 # prompt: i need full code for deploy it in python anywhere
 
