@@ -15,3 +15,4 @@ seaborn
 statsmodels
 plotly
 scikit-learn
+gunicorn
