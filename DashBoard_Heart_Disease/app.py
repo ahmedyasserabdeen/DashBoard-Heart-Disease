@@ -948,13 +948,3 @@ def update_output(n_clicks, age, sex, chest_pain_type, resting_bp, cholesterol, 
 if __name__ == '__main__':
     app.run_server(debug=False)
 
-# prompt: i need full code for deploy it in python anywhere
-
-1. **Create a PythonAnywhere account and domain:**
-    - Go to https://www.pythonanywhere.com/ and sign up for an account.
-    - Once you have created an account, click on "Web" in the top menu and then click on "Add a New Web App".
-    - Select "Python" as the web framework and enter a name for your web app.
-    - Click on "Create Web App" and your web app will be created.
-
-2. **Install the necessary libraries:**
-    - In your PythonAnywhere console, run the following command to install the necessary libraries:
