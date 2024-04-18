@@ -296,7 +296,8 @@ def make_prediction(n, x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11):
 """## **Dash**"""
 
 import dash_daq as daq
-app =JupyterDash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = dash(name, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 age_range = df2['Age'].unique()
 slider = html.Div(children =[
@@ -950,7 +951,7 @@ def update_output(n_clicks, age, sex, chest_pain_type, resting_bp, cholesterol, 
             html.H2(result[1])
         ])
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8060)
+    app.run_server(debug=False)
 
 # prompt: i need full code for deploy it in python anywhere
 
