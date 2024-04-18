@@ -9,11 +9,6 @@ Original file is located at
 ## **Install libraries**
 """
 
-!pip install dash
-!pip install jupyter_dash
-!pip install dash_gif_component
-!pip install dash_bootstrap_components
-!pip install dash_daq
 
 """## **Import libraries**"""
 
