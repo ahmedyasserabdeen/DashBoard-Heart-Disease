@@ -271,7 +271,7 @@ def make_prediction(n, x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11):
         features_list["RestingECG"] = features_list["RestingECG"].replace({"Normal": 1, "ST": 2, "LVH": 0})
         features_list["ST_Slope"] = features_list["ST_Slope"].replace({"Up": 2, "Flat": 1, "Down": 0})
 
-        with open("/content/finalized_model.sav", "rb") as file:
+        with open("finalized_model.sav", "rb") as file:
             loaded_model = pickle.load(file)
 
         input_features = features_list.values.tolist()
