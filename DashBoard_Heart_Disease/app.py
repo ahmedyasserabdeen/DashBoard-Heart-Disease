@@ -47,7 +47,7 @@ import pickle
 
 """## **Reading Data**"""
 
-df=pd.read_csv("/content/heart.csv")
+df=pd.read_csv("heart.csv")
 
 """## **Data Preprocessing**"""
 
