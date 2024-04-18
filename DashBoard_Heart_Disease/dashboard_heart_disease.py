@@ -296,7 +296,7 @@ def make_prediction(n, x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11):
 """## **Dash**"""
 
 import dash_daq as daq
-app = dash.Dash(name, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app =JupyterDash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
 age_range = df2['Age'].unique()
